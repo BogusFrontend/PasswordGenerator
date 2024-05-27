@@ -37,8 +37,8 @@ body {
 }
 
 .container h1 span {
-    color: #019f55;
-    border-bottom: 4px solid #019f55;
+    color: #06d474;
+    border-bottom: 4px solid #06d474;
     padding-bottom: 7px;
 }
 
@@ -61,7 +61,7 @@ body {
 .container button {
     border: none;
     outline: none;
-    background: #019f55;
+    background: #06d474;
     color: #fff;
     font-size: 22px;
     font-weight: 300;
@@ -89,18 +89,24 @@ body {
     left: 50%;
     transform: translate(-50%);
     margin: 20px auto;
-    width: 300px;
-    background: #019f55;
+    width: 200px;
+    text-align: center;
+    background: #06d474;
     padding: 12px 20px;
     border-radius: 5px;
     user-select: none;
     opacity: 0;
-    transition: top 0.5s, opacity 0.5s;
+    transition: top 0.5s ease, opacity 0.5s ease;
 }
 
 .infoBlock.active {
     top: 10px;
     opacity: 1;
+}
+
+.input__subtitle {
+    font-size: 12px;
+    color: #d3d3d3;
 }
 
 
